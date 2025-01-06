@@ -1,0 +1,7 @@
+[theme]
+base="dark"
+primaryColor="#FF0000"  # Red for buttons and interactive elements
+backgroundColor="#1E1E1E" # Dark grey for the main background
+secondaryBackgroundColor="#333333" # Slightly lighter grey for panels
+textColor="#FFFFFF" # White for text
+font="monospace"

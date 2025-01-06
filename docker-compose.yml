@@ -1,0 +1,22 @@
+version: "3.8"
+
+services:
+  app:
+    container_name: app
+    build:
+      context: .
+      dockerfile: Dockerfile
+    env_file:
+      - .env
+    ports:
+      - "8000:8000"  # Map container port 8000 to the host port 8000
+    volumes:
+      - .:/app  # Mount the current directory to the /app directory in the container
+      - /.env:/.env
+    command: streamlit run app.py --host=0.0.0.0 --port=8000
+    networks:
+      - app-network
+
+networks:
+  app-network:
+      driver: bridge
