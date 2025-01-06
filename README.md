@@ -72,6 +72,8 @@ Before you begin, ensure you have the following installed:
 
     This will launch the application in your default web browser. (http://localhost:8501/)
 
+2. ![img.png](img/img.png)
+
 2.  **Upload an image:** Use the file uploader in the sidebar to select an image.
 
 3.  **Extract Text:** Click the "Extract Text" button to process the image and display the extracted text.
@@ -91,7 +93,6 @@ This section provides a guide for developers who want to modify or extend the pr
 *   `pyproject.toml`: Lists the project's dependencies.
 *   `README.md`: This file.
 
-### Overview 
 
 ## Contributing
 
