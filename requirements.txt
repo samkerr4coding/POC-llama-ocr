@@ -1,16 +1,5 @@
 langgraph
 langchain
 langchain-community
-langchain-ollama
-langchain-google-genai
-pdf2image
-sentence_transformers
-python-dotenv
-pymupdf
-scikit-learn
-pillow
-torch
-transformers
 ollama
 streamlit
-openai
